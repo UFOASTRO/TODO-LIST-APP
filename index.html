@@ -8,17 +8,21 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
-        theme: {
-          extend: {
+    theme: {
+        extend: {
             colors: {
-              clifford: "#da373d",
+                clifford: "#da373d",
             },
-          },
+            backgroundImage: {
+                'stary-night': "url('stary.gif')",
+            },
         },
-      };
+    },
+}
+
     </script>
   </head>
-  <body class="bg-slate-300">
+  <body class="bg-stary-night ">
     <div class="successful loading-line border-b-4 border-blue-500 animate-loading-border ">
       <p>✅ Task succefully added</p>
     </div>
